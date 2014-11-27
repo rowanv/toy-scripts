@@ -20,13 +20,16 @@ def fibonacci(num):
 
 def less_than_fib():
     i = 1
-    fib1 = 0
+    last_fib_number = 0
     sum1 = 0
-    while fib1 < (4 * 10**9):
-        fib1 = fibonacci(i)
+    while last_fib_number < (4 * 10**6):
+        last_fib_number = fibonacci(i)
         i+=1
-        if fib1 % 2 == 0:
-           sum1 += fib1
+        if last_fib_number % 2 == 0:
+           sum1 += last_fib_number
     return sum1
 
+
+
 print less_than_fib()
+#4613732
