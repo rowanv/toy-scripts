@@ -6,7 +6,7 @@ Subtraction
 Multiplication
 Divison
 Integer Divison
-of the two numbers in 5 separate lines. Keep a precision of two digits after decimal. '''
+of the two numbers in 5 separate lines. Keep a precision of two digits after decimal. 
 
 Original problem: https://www.hackerrank.com/challenges/basic-calculator '''
 
